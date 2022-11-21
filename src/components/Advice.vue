@@ -29,6 +29,6 @@ const loadingSymbol = "...";
 }
 
 .advice-quote {
-  font-size: 28px;
+  font-size: 22px;
 }
 </style>

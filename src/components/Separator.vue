@@ -29,9 +29,3 @@ const props = defineProps({
   mobile: Boolean,
 });
 </script>
-
-<style>
-.separator {
-  margin-bottom: 3rem;
-}
-</style>
