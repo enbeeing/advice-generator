@@ -28,7 +28,14 @@ const rollNewAdvice = async () => {
   align-items: center;
   padding: 1.2rem;
   border-radius: 50%;
-  transform: translateY(-50%);
+  transform: translateY(50%);
   transition: 0.2s;
+}
+
+/* active and hover */
+.dice-button:hover,
+.dice-button:active {
+  box-shadow: 0 0 10px var(--accent-color);
+  cursor: pointer;
 }
 </style>
